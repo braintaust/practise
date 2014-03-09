@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [HomeWork]]]">
+  <parameter name="TestData" value="\tool\test.properties"/>
+  <test name="Practice2(failed)(failed)(failed)">
+    <classes>
+      <class name="seleniumpractise.HomeWork">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- seleniumpractise.HomeWork -->
+    </classes>
+  </test> <!-- Practice2(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [HomeWork]]] -->

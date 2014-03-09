@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HomeWork" >
+	<parameter name="ie" value="ie" />
+	<parameter name="firefox" value="firefox" />
+	<parameter name="chrome" value="chrome" />
+</suite> 

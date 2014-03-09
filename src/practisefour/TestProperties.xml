@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="practisefour" >
+	<parameter name="TestData" value="/tool/test.properties" />
+</suite> 

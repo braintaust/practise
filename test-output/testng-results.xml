@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HomeWork" duration-ms="86328" started-at="2014-03-08T10:53:57Z" finished-at="2014-03-08T10:55:23Z">
+    <groups>
+    </groups>
+    <test name="Practice1" duration-ms="65264" started-at="2014-03-08T10:53:57Z" finished-at="2014-03-08T10:55:02Z">
+      <class name="seleniumpractise.HomeWork">
+        <test-method status="PASS" signature="setup()[pri:0, instance:seleniumpractise.HomeWork@53c52191]" name="setup" is-config="true" duration-ms="59818" started-at="2014-03-08T18:53:57Z" finished-at="2014-03-08T18:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:seleniumpractise.HomeWork@53c52191]" name="test1" duration-ms="3394" started-at="2014-03-08T18:54:57Z" finished-at="2014-03-08T18:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumpractise.HomeWork@53c52191]" name="teardown" is-config="true" duration-ms="2011" started-at="2014-03-08T18:55:00Z" finished-at="2014-03-08T18:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- seleniumpractise.HomeWork -->
+    </test> <!-- Practice1 -->
+    <test name="Practice2" duration-ms="21016" started-at="2014-03-08T10:55:02Z" finished-at="2014-03-08T10:55:23Z">
+      <class name="seleniumpractise.HomeWork">
+        <test-method status="PASS" signature="setup()[pri:0, instance:seleniumpractise.HomeWork@2d2c6ed8]" name="setup" is-config="true" duration-ms="13810" started-at="2014-03-08T18:55:02Z" finished-at="2014-03-08T18:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:seleniumpractise.HomeWork@2d2c6ed8]" name="test2" duration-ms="5400" started-at="2014-03-08T18:55:16Z" finished-at="2014-03-08T18:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumpractise.HomeWork@2d2c6ed8]" name="teardown" is-config="true" duration-ms="1806" started-at="2014-03-08T18:55:21Z" finished-at="2014-03-08T18:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- seleniumpractise.HomeWork -->
+    </test> <!-- Practice2 -->
+  </suite> <!-- HomeWork -->
+</testng-results>

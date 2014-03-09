@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 import seleniumpractise.Browser;
 import seleniumpractise.BrowserTypes;
+import seleniumpractise.ParseProperties;
 
 public class TestProperties {
 	    Browser browser;

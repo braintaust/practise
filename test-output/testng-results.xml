@@ -1,41 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="HomeWork" duration-ms="86328" started-at="2014-03-08T10:53:57Z" finished-at="2014-03-08T10:55:23Z">
+  <suite name="practisefour" duration-ms="77336" started-at="2014-03-15T11:21:30Z" finished-at="2014-03-15T11:22:47Z">
     <groups>
     </groups>
-    <test name="Practice1" duration-ms="65264" started-at="2014-03-08T10:53:57Z" finished-at="2014-03-08T10:55:02Z">
-      <class name="seleniumpractise.HomeWork">
-        <test-method status="PASS" signature="setup()[pri:0, instance:seleniumpractise.HomeWork@53c52191]" name="setup" is-config="true" duration-ms="59818" started-at="2014-03-08T18:53:57Z" finished-at="2014-03-08T18:54:57Z">
+    <test name="Practice2" duration-ms="77336" started-at="2014-03-15T11:21:30Z" finished-at="2014-03-15T11:22:47Z">
+      <class name="practisefour.HomeWork">
+        <test-method status="PASS" signature="start()[pri:0, instance:practisefour.HomeWork@18b8a11a]" name="start" is-config="true" duration-ms="63420" started-at="2014-03-15T19:21:30Z" finished-at="2014-03-15T19:22:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:seleniumpractise.HomeWork@53c52191]" name="test1" duration-ms="3394" started-at="2014-03-08T18:54:57Z" finished-at="2014-03-08T18:55:00Z">
+        </test-method> <!-- start -->
+        <test-method status="FAIL" signature="Test(java.lang.String)[pri:0, instance:practisefour.HomeWork@18b8a11a]" name="Test" duration-ms="13878" started-at="2014-03-15T19:22:33Z" finished-at="2014-03-15T19:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\tool\test.properties]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 10 seconds waiting for presence of element located by: By.xpath: //span[@title = '²Ý¸åÏä']
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'zheng', ip: '192.168.1.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_09'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //span[@title = '²Ý¸åÏä']
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'zheng', ip: '192.168.1.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_09'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:259)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at seleniumpractise.WaitElement.waitForElementPresent(WaitElement.java:23)
+	at practisefour.HomeWork.Test(HomeWork.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[@title = '²Ý¸åÏä']"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'zheng', ip: '192.168.1.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_09'
+Session ID: 0f9400bd-315a-4e5e-bb07-a2d25a8909d4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0.1}]
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:103)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 26 more
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"//span[@title = '²Ý¸åÏä']"}
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'zheng', ip: '192.168.1.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_09'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ZHENGT~1/AppData/Local/Temp/anonymous511587222324204645webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ZHENGT~1/AppData/Local/Temp/anonymous511587222324204645webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8869)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ZHENGT~1/AppData/Local/Temp/anonymous511587222324204645webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ZHENGT~1/AppData/Local/Temp/anonymous511587222324204645webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10836)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ZHENGT~1/AppData/Local/Temp/anonymous511587222324204645webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10778)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumpractise.HomeWork@53c52191]" name="teardown" is-config="true" duration-ms="2011" started-at="2014-03-08T18:55:00Z" finished-at="2014-03-08T18:55:02Z">
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practisefour.HomeWork@18b8a11a]" name="end" is-config="true" duration-ms="16" started-at="2014-03-15T19:22:47Z" finished-at="2014-03-15T19:22:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- seleniumpractise.HomeWork -->
-    </test> <!-- Practice1 -->
-    <test name="Practice2" duration-ms="21016" started-at="2014-03-08T10:55:02Z" finished-at="2014-03-08T10:55:23Z">
-      <class name="seleniumpractise.HomeWork">
-        <test-method status="PASS" signature="setup()[pri:0, instance:seleniumpractise.HomeWork@2d2c6ed8]" name="setup" is-config="true" duration-ms="13810" started-at="2014-03-08T18:55:02Z" finished-at="2014-03-08T18:55:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:seleniumpractise.HomeWork@2d2c6ed8]" name="test2" duration-ms="5400" started-at="2014-03-08T18:55:16Z" finished-at="2014-03-08T18:55:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumpractise.HomeWork@2d2c6ed8]" name="teardown" is-config="true" duration-ms="1806" started-at="2014-03-08T18:55:21Z" finished-at="2014-03-08T18:55:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- seleniumpractise.HomeWork -->
+        </test-method> <!-- end -->
+      </class> <!-- practisefour.HomeWork -->
     </test> <!-- Practice2 -->
-  </suite> <!-- HomeWork -->
+  </suite> <!-- practisefour -->
 </testng-results>
